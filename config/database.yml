@@ -11,15 +11,15 @@ default: &default
 
 development:
   <<: *default
-  database: db/ruby_thursday_development
+  database: db/gem_playground_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/ruby_thursday_test
+  database: db/gem_playground_test
 
 production:
   <<: *default
-  database: db/ruby_thursday_production
+  database: db/gem_playground_production
