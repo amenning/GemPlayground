@@ -41,6 +41,7 @@ group :development, :test do
 
   gem 'better_errors'
   gem 'capybara-webkit'
+  gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'ffaker'
