@@ -1,24 +1,19 @@
-# README
+## Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. After cloning the repo, install the gems:
 
-Things you may want to cover:
+        $ cd GemPlayground
+        $ Bundle
 
-* Ruby version
+2. Create the database
 
-* System dependencies
+        $ bin/rake db:create
+        $ bin/rake db:schema:load
 
-* Configuration
+## Running Tests
 
-* Database creation
+This repo contains various test frameworks
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. To run rspec tests - bundle exec rspec spec/
+2. To run cucumber tests - bundle exec cucumber -s
+ 
