@@ -16,4 +16,4 @@ This repo contains various test frameworks
 
 1. To run rspec tests - bundle exec rspec spec/
 2. To run cucumber tests - bundle exec cucumber -s
- 
+3. To run spinach tests - bin/rails spinach 
